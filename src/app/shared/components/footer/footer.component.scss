@@ -1,0 +1,48 @@
+.flex-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-nw {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.al-c {
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: #333333;
+  color: white;
+
+  & a{
+    color: white;
+  }
+}
+
+.nav-f {
+  margin-bottom: 40px;
+
+  &__lf {
+    margin-bottom: 20px;
+  }
+
+  &__ls {
+    padding: 0px 10px;
+  }
+}
+
+.bd-r {
+  border-right: 2px solid white;
+}

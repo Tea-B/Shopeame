@@ -1,0 +1,90 @@
+.flex-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-nw {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.flex-r {
+  flex-direction: row;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.main-f {
+  background-color: #EEEEEE;
+}
+
+.form {
+  width: 65%;
+  padding: 40px 50px;
+  margin: 60px 0px;
+  background-color: #FFFFFF;
+  border-color: 1px solid black;
+  border-radius: 50px;
+
+  &-f {
+    padding-top: 40px;
+
+    &__f {
+      width: 65%;
+      border-right: 2px solid orange;
+
+      & p {
+        margin-bottom: 10px;
+      }
+
+      & input {
+        width: 80%;
+        max-width: 550px;
+        height: 28px;
+        margin-bottom: 20px;
+      }
+
+      & button {
+        width: 100px;
+        height: 30px;
+        margin-left: 70px;
+        color: white;
+        background-color: orange;
+        border: 0px solid;
+        border-radius: 5px;
+      }
+    }
+
+    &__p {
+      width: 35%;
+    }
+  }
+}
+
+.card {
+  width: 80%;
+  padding: 30px;
+  padding-left: 40px;
+
+  & img {
+    width: 100%;
+  }
+
+  & h4 {
+    padding: 10px 0px;
+  }
+
+  & p {
+    padding: 10px 0px;
+  }
+}

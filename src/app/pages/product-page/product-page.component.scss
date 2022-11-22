@@ -1,0 +1,72 @@
+.flex-w {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+.flex-nw {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.main-g {
+  background-color: #EEEEEE;
+}
+
+.galery {
+  width: 65%;
+  padding: 30px 20px;
+  margin: 60px 0px;
+  background-color: #FFFFFF;
+  border-color: 1px solid black;
+  border-radius: 50px;
+}
+
+.card {
+  width: calc(25% - 60px);
+  padding: 30px;
+
+  & img {
+    width: 100%;
+  }
+
+  & h4 {
+    padding: 10px 0px;
+  }
+
+  & p {
+    padding: 10px 0px;
+  }
+}
+
+.review {
+
+  & p {
+    display: inline-block;
+  }
+
+  & button {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    color: #2264D1;
+    background-color: white;
+    border: 1px solid #2264D1;
+    border-radius: 5px;
+  }
+}

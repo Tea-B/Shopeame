@@ -1,0 +1,33 @@
+<header>
+  <nav>
+    <div class="flex-nw jc-c al-c nav-f">
+      <a routerLink="/">
+        <img class="nav-f__img" src="../../../../assets/icons8-shopeame.png" alt="Shopeame logo">
+      </a>
+      <a routerLink="/">
+        <h1 class="nav-f__title">Shopéame!</h1>
+      </a>
+    </div>
+
+    <div class="flex-nw jc-c al-c nav-s">
+      <a class="nav-s-c" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <div class="flex-nw flex-c al-c">
+          <img class="nav-s-c__img" src="../../../../assets/icons8-radiation-32.png" alt="Radiacion logo">
+          <p>Home</p>
+        </div>
+      </a>
+      <a class="nav-s-c" routerLink="/product" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <div class="flex-nw flex-c al-c">
+          <img class="nav-s-c__img" src="../../../../assets/icons8-prismáticos-32.png" alt="Prismaticos logo">
+          <p>Prods.</p>
+        </div>
+      </a>
+      <a class="nav-s-c" routerLink="/edit" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <div class="flex-nw flex-c al-c">
+          <img class="nav-s-c__img" src="../../../../assets/icons8-timón-50.png" alt="Timon logo">
+          <p>Gestion</p>
+        </div>
+      </a>
+    </div>
+  </nav>
+</header>

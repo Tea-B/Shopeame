@@ -1,0 +1,32 @@
+<div class="flex-nw jc-c main-f">
+  <div class="flex-nw flex-c jc-c form">
+    <div>
+      <h2>Creación/edición de productos</h2>
+    </div>
+    <div class="flex-nw flex-r form-f">
+      <div class="form-f__f">
+        <form [formGroup]="productForm" (ngSubmit)="submit()">
+          <p>Nombre del producto:</p>
+          <input type="text" placeholder="Por Ej: Lapiz" formControlName="name" (input)="update()">
+          <p>Precio:</p>
+          <input type="text" placeholder="Por Ej: $10" formControlName="price" (input)="update()">
+          <p>Descripcion:</p>
+          <input type="text" placeholder="Por Ej: Lapiz largo" formControlName="description" (input)="update()">
+          <p>Ruta de la imagen:</p>
+          <input type="text" placeholder="Por Ej: https://img.freepik.com/imagen.jpg?w=2000" formControlName="image" (input)="update()">
+          <p>Opiniones:</p>
+          <input type="text" placeholder="Por Ej: 4" formControlName="stars" (input)="update()">
+          <button>Guardar</button>
+        </form>
+      </div>
+      <div class="jc-c form-f__p">
+        <div class="card">
+          <img src="{{editProduct.image}}">
+          <h4>{{editProduct.name}}</h4>
+          <h2>${{editProduct.price}}</h2>
+          <p>{{editProduct.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

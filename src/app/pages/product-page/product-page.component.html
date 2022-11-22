@@ -1,0 +1,14 @@
+<div class="flex-nw al-c jc-c main-g">
+  <div class="flex-w al-c jc-c galery">
+    <div *ngFor="let product of products; let index = index" class="card">
+      <img src="{{product.image}}">
+      <h4>{{product.name}}</h4>
+      <h2>${{product.price}}</h2>
+      <p>{{product.description}}</p>
+      <div class="flex-nw al-c jc-sb review">
+        <p>{{product.stars}}/5 Stars</p>
+        <button (click)="edit(index)">Editar</button>
+      </div>
+    </div>
+  </div>
+</div>

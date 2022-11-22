@@ -1,0 +1,31 @@
+.flex-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-nw {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.nav-f__img {
+  width: 35px;
+  height: 35px;
+  margin: 20px 5px;
+}
+
+.nav-f__title {
+  margin: 20px 5px;
+}
+
+.nav-s {
+  background-color: #FFC970;
+}/*# sourceMappingURL=header.component.css.map */
